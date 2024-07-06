@@ -1,14 +1,13 @@
 package com.first.metro;
 
-import android.app.activity;
-import android.os.bundle;
+import android.app.Activity;
+import android.os.Bundle;
 
-public class MainActivity extends Activity{
-	
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.Activity.Main);
-	}
+public class MainActivity extends Activity {
+    
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main); // Corrected layout reference
+    }
 }
-
